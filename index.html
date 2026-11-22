@@ -1,1 +1,116 @@
-Hello world
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Will Edmonson: a B2B marketing leader focused on search, demand generation, conversion, and analytics.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Will Edmonson — Marketing Portfolio Development Preview</title>
+  <style>
+    :root { color-scheme: light; --ink: #24342e; --forest: #2f493c; --cream: #f7f3eb; --ochre: #b67841; --line: #dbd6c9; --muted: #5e685d; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--cream); color: var(--ink); font-family: Georgia, 'Times New Roman', serif; }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 42px)); margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 27px 0; border-bottom: 1px solid var(--line); }
+    .wordmark { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: .09em; font-size: .92rem; text-transform: uppercase; text-decoration: none; }
+    nav { display: flex; gap: clamp(12px, 3vw, 34px); }
+    nav a, .eyebrow, .section-tag, .pill, footer { font-family: Arial, Helvetica, sans-serif; }
+    nav a { text-decoration: none; color: var(--muted); font-size: .86rem; }
+    nav a:hover, nav a:focus { color: var(--ochre); text-decoration: underline; }
+    .hero { padding: clamp(76px, 13vw, 150px) 0 100px; display: grid; grid-template-columns: 1.3fr .7fr; gap: 48px; align-items: end; }
+    .eyebrow, .section-tag { color: var(--forest); font-size: .75rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { font-size: clamp(3.3rem, 7.6vw, 7rem); line-height: 1.04; letter-spacing: -.055em; font-weight: 400; margin: 20px 0 27px; max-width: 840px; }
+    h1 span { display:block; font-style: italic; color: var(--ochre); }
+    .intro { max-width: 490px; font-size: clamp(1.14rem, 1.6vw, 1.35rem); line-height: 1.65; color: #49524a; margin: 0 0 36px; }
+    .pill { display: inline-block; padding: 15px 24px; background: var(--forest); color: white; text-decoration: none; border-radius: 2px; font-size: .86rem; font-weight: 700; letter-spacing: .03em; }
+    .pill:hover, .pill:focus { background: var(--ink); }
+    .aside { border-top: 4px solid var(--ochre); padding-top: 20px; color: var(--muted); font-size: 1.07rem; line-height: 1.6; }
+    .aside strong { display: block; color: var(--ink); font: 700 .78rem Arial, sans-serif; letter-spacing: .11em; text-transform: uppercase; margin-bottom: 13px; }
+    .work { background: var(--forest); color: #f9f7f2; padding: 95px 0 105px; }
+    .work-head { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding-bottom: 30px; border-bottom: 1px solid #657469; }
+    .work h2, .about h2 { font-size: clamp(2.3rem, 4.5vw, 4.3rem); letter-spacing: -.045em; font-weight: 400; line-height: 1.08; margin: 13px 0; }
+    .work .section-tag { color: #dfbb84; }
+    .work-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; padding-top: 35px; }
+    .project { padding: 29px; border: 1px solid #79877b; min-height: 230px; display: flex; flex-direction: column; }
+    .project .num { color: #dfbb84; font: 700 .75rem Arial, sans-serif; letter-spacing: .14em; }
+    .project h3 { font-size: clamp(1.45rem, 2.5vw, 2.1rem); line-height: 1.2; font-weight: 400; margin: 30px 0 12px; }
+    .project p { color: #d4d9d1; line-height: 1.55; margin: 0; }
+    .about { padding: 100px 0 95px; display: grid; grid-template-columns: .85fr 1.15fr; gap: 70px; }
+    .about p { font-size: 1.15rem; line-height: 1.75; color: #49524a; margin-top: 14px; }
+    footer { border-top: 1px solid var(--line); padding: 32px 0; display: flex; justify-content: space-between; gap: 24px; font-size: .83rem; color: var(--muted); }
+    footer a { text-decoration: underline; }
+    .preview { color: #a4632e; }
+    @media(max-width: 750px) { .hero, .about { grid-template-columns: 1fr; } .hero { padding-top: 78px; gap: 50px; } .aside { max-width: 480px; } .work-grid { grid-template-columns: 1fr; } header, footer { flex-wrap: wrap; } .work { padding: 68px 0; } .about { padding: 68px 0; gap: 22px; } }
+    @media(prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="wordmark" href="#top" id="top-name">Will Edmonson</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="mailto:wpedmonson@gmail.com">Contact</a>
+      </nav>
+    </header>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div>
+          <div class="eyebrow">Fort Worth, Texas / B2B marketing</div>
+          <h1 id="hero-heading">Clear thinking. <span id="hero-headline-accent">Stronger marketing.</span></h1>
+          <p class="intro" id="hero-intro">I bring together search, paid media, content, analytics, and conversion strategy to help B2B teams make better decisions and build measurable demand.</p>
+          <a class="pill" href="#work">Explore selected work</a>
+        </div>
+        <div class="aside"><strong>Approach</strong>Understand the business. Ask better questions. Measure what matters. Make the work useful.</div>
+      </section>
+    </main>
+  </div>
+  <section id="work" class="work">
+    <div class="wrap">
+      <div class="work-head"><div><div class="section-tag">Portfolio / Development preview</div><h2>Selected work</h2></div><small>Case studies to be completed and verified</small></div>
+      <div class="work-grid">
+        <article class="project"><span class="num">01 / DEMAND GENERATION</span><h3>Global professional services</h3><p>Connecting paid media, sales activity, and attribution across longer B2B buying journeys.</p></article>
+        <article class="project"><span class="num">02 / SEARCH & CONVERSION</span><h3>Managed IT services</h3><p>Making local search, landing pages, and lead-quality decisions more useful.</p></article>
+        <article class="project"><span class="num">03 / MULTI-LOCATION MARKETING</span><h3>Hospitality portfolio</h3><p>Supporting search programs and cross-functional execution across dozens of properties.</p></article>
+        <article class="project"><span class="num">04 / MARKETING OPERATIONS</span><h3>B2B measurement and testing</h3><p>Practical experimentation with analytics, tag management, and lifecycle reporting.</p></article>
+      </div>
+    </div>
+  </section>
+  <div class="wrap">
+    <section class="about" id="about">
+      <div><div class="section-tag">A little about the work</div><h2>Practical by design.</h2></div>
+      <div><p>I work at the intersection of strategy and execution. My background spans paid search, organic search, content, conversion optimization, reporting, and collaboration with sales teams.</p><p>These are placeholders for carefully documented, employer-anonymized case studies—not claims of results or a finished public launch.</p></div>
+    </section>
+    <footer><span id="footer-name">Will Edmonson</span><span class="preview">Development preview — not the final published portfolio</span><a href="mailto:wpedmonson@gmail.com">Email</a></footer>
+  </div>
+  <script>
+    // Pages CMS edits site.json on GitHub. The preview reads it on load.
+    (async function () {
+      try {
+        const response = await fetch('./site.json', {cache: 'no-store'});
+        if (!response.ok) throw new Error('site.json not available');
+        const data = await response.json();
+        if (typeof data.name === 'string' && data.name.trim()) {
+          document.getElementById('top-name').textContent = data.name;
+          document.getElementById('footer-name').textContent = data.name;
+        }
+        if (typeof data.headline === 'string' && data.headline.trim()) {
+          const words = data.headline.trim().split(/\s+/);
+          const last = words.length > 2 ? words.splice(-2).join(' ') : words.pop();
+          document.getElementById('hero-heading').replaceChildren(document.createTextNode(words.join(' ') + ' '));
+          const accent = document.createElement('span');
+          accent.id = 'hero-headline-accent';
+          accent.textContent = last;
+          document.getElementById('hero-heading').appendChild(accent);
+        }
+        if (typeof data.intro === 'string' && data.intro.trim()) {
+          document.getElementById('hero-intro').textContent = data.intro;
+        }
+      } catch (err) { console.warn('Using built-in preview copy.', err); }
+    })();
+  </script>
+</body>
+</html>
